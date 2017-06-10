@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/photo_detail_container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".PhotoDetailActivity" tools:ignore="MergeRootFrame"
+    android:background="#fff4b314"
+    android:visibility="visible">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="161dp"
+        android:layout_gravity="center_horizontal|top"
+        android:alpha="255"
+        android:background="#bcffe43a"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="56dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="\@FilmBolt"
+            android:id="@+id/textView"
+            android:layout_gravity="right|center_vertical"
+            android:textSize="30dp"
+            android:textColor="#ff17170b" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="left|center_vertical"
+            android:src="@mipmap/ic_launcher"
+            android:minHeight="250dp"
+            android:minWidth="180dp"
+            android:background="#00000000" />
+
+    </FrameLayout>
+
+</FrameLayout>
